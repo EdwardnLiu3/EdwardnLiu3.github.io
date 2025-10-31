@@ -1,0 +1,146 @@
+/* Main Stylesheet for Edward Liu's Website */
+
+body {
+    font-family: Georgia, "Times New Roman", serif;
+    background-color: #f5f5f5;
+    margin: 0;
+    padding: 20px;
+    line-height: 1.6;
+}
+
+nav {
+    background-color: #333;
+    padding: 15px;
+    margin-bottom: 30px;
+    border-radius: 5px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    padding: 10px 15px;
+    margin: 0 5px;
+    display: inline-block;
+}
+
+nav a:hover {
+    background-color: #555;
+    border-radius: 3px;
+}
+
+.container {
+    max-width: 900px;
+    margin: 0 auto;
+    background-color: white;
+    padding: 30px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+h1 {
+    color: #c5050c;
+    font-size: 2.5em;
+    margin-bottom: 10px;
+}
+
+h2 {
+    color: #333;
+    border-bottom: 2px solid #c5050c;
+    padding-bottom: 5px;
+}
+
+.intro-image {
+    width: 100%;
+    max-width: 400px;
+    height: auto;
+    display: block;
+    margin: 20px auto;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+}
+
+.home-content {
+    display: flex;
+    gap: 30px;
+    align-items: flex-start;
+    margin-top: 20px;
+}
+
+.home-text {
+    flex: 1;
+}
+
+.home-content .intro-image {
+    flex-shrink: 0;
+    margin: 0;
+    max-width: 300px;
+}
+
+.hobby-image {
+    width: 100%;
+    max-width: 400px;
+    height: auto;
+    display: block;
+    margin: 15px auto;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+}
+
+.company-logo {
+    width: 100%;
+    max-width: 300px;
+    height: auto;
+    display: block;
+    margin: 20px auto;
+}
+
+.experience-header {
+    display: flex;
+    gap: 30px;
+    align-items: flex-start;
+    margin-bottom: 20px;
+}
+
+.experience-info {
+    flex: 1;
+}
+
+.experience-header .company-logo {
+    flex-shrink: 0;
+    margin: 0;
+    max-width: 180px;
+}
+
+.project-item, .experience-item {
+    margin-bottom: 25px;
+    padding: 15px;
+    background-color: #fafafa;
+    border-left: 4px solid #c5050c;
+}
+
+.contact-info {
+    font-size: 1.1em;
+    line-height: 2;
+}
+
+dt {
+    font-weight: bold;
+    color: #c5050c;
+    margin-top: 15px;
+}
+
+dd {
+    margin-left: 20px;
+    margin-bottom: 10px;
+}
+
+/* Unique layout for hobbies page */
+.hobbies-layout {
+    background: linear-gradient(to bottom, #ffffff 0%, #f0f0f0 100%);
+}
+
+.hobbies-layout h2 {
+    color: #c5050c;
+    text-align: center;
+    font-size: 1.8em;
+    margin-top: 30px;
+}
